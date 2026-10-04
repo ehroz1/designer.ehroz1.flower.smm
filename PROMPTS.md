@@ -40,22 +40,22 @@ Top-down photo of a creative designer's desk in soft daylight: an open brand boo
 
 Нужны **на чисто белом фоне**: сайт «растворяет» белый, и цветок как будто парит на странице. Сохраните в PNG или JPG, но с расширением `.png` в имени файла.
 
-### `flower-1.png` · 1:1 · 1024×1024
+### `flower-1.jpg` · 1:1 · 1024×1024
 ```
 A single airy lilac sweet pea sprig with delicate translucent petals and curly tendrils, slight motion blur and double exposure, dreamy soft focus edges, isolated on a pure white background, high-key studio light, no shadow, soft dreamy pastel palette of blush pink, lavender and cream, ethereal diffused light, no text, no logos, no watermark --ar 1:1
 ```
 
-### `flower-2.png` · 1:1 · 1024×1024
+### `flower-2.jpg` · 1:1 · 1024×1024
 ```
 A small loose bunch of pale lavender and violet anemones with a sprig of dried lavender, ethereal translucent petals, slight motion blur, dreamy soft focus edges, isolated on a pure white background, high-key studio light, no shadow, soft dreamy pastel palette of blush pink, lavender and cream, ethereal diffused light, no text, no logos, no watermark --ar 1:1
 ```
 
-### `flower-3.png` · 1:1 · 1024×1024
+### `flower-3.jpg` · 1:1 · 1024×1024
 ```
 A single coral-pink garden peony with soft lilac cosmos flowers beside it, petals glowing and slightly translucent, slight motion blur, dreamy soft focus edges, isolated on a pure white background, high-key studio light, no shadow, soft dreamy pastel palette of blush pink, lavender and cream, ethereal diffused light, no text, no logos, no watermark --ar 1:1
 ```
 
-### `flower-4.png` · 1:1 · 1024×1024
+### `flower-4.jpg` · 1:1 · 1024×1024
 ```
 A delicate white and pale lilac phalaenopsis orchid branch with a few sprigs of lavender at the base, ethereal translucent petals, slight motion blur, dreamy soft focus edges, isolated on a pure white background, high-key studio light, no shadow, soft dreamy pastel palette of blush pink, lavender and cream, ethereal diffused light, no text, no logos, no watermark --ar 1:1
 ```
@@ -119,7 +119,7 @@ A hand holding a big lush bouquet of pink garden roses, peonies, cream daisies a
 | `hero-mobile.jpg` | 9:16 | Первый экран на телефоне |
 | `hero-desktop.jpg` | 16:9 | Первый экран на компьютере |
 | `about.jpg` | 1:1 | Круг в блоке «Решение» |
-| `flower-1.png` … `flower-4.png` | 1:1, белый фон | Этапы работы и плавающие цветы |
+| `flower-1.jpg` … `flower-4.jpg` | 1:1, белый фон | Этапы работы и плавающие цветы |
 | `post-1.jpg` … `post-3.jpg` | 1:1 | Демо конструктора в телефоне |
 | `work-1.jpg` … `work-4.jpg` | 4:5 | Галерея в блоке «Доверие» |
 | `offer.jpg` | 4:5 | Фон спецпредложения |
