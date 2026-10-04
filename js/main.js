@@ -6,10 +6,12 @@
 
   /* ─── Контакты: поменяйте здесь — ссылки обновятся по всему сайту ─── */
   const CONFIG = {
-    telegram: 'Ehroz',   // ник в Telegram без @
-    whatsapp: '',        // номер только цифрами, например 77001234567 (пусто — кнопки WhatsApp скрыты)
-    portfolio: '',       // ссылка на портфолио: Behance, Google Drive и т. п. (пусто — кнопка скрыта)
-    message: 'Дизайн',   // текст, который подставится в сообщение WhatsApp
+    telegram: 'hhrrzz1',        // ник в Telegram без @
+    whatsapp: '77775971798',    // номер только цифрами (пусто — кнопки WhatsApp скрыты)
+    instagram: 'Ehroz1',        // ник в Instagram без @
+    phone: '+77775971798',      // номер для звонка
+    portfolio: '',              // ссылка на портфолио: Behance, Google Drive и т. п. (пусто — кнопка скрыта)
+    message: 'Дизайн',          // текст, который подставится в сообщение
   };
 
   const $ = (s, r = document) => r.querySelector(s);
@@ -22,12 +24,15 @@
   const contactUrl = {
     telegram: CONFIG.telegram && `https://t.me/${CONFIG.telegram.replace(/^@/, '')}`,
     whatsapp: CONFIG.whatsapp && `https://wa.me/${CONFIG.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent(CONFIG.message)}`,
+    instagram: CONFIG.instagram && `https://instagram.com/${CONFIG.instagram.replace(/^@/, '')}`,
+    phone: CONFIG.phone && `tel:${CONFIG.phone.replace(/[^\d+]/g, '')}`,
     portfolio: CONFIG.portfolio,
   };
   $$('[data-contact]').forEach((el) => {
     const url = contactUrl[el.dataset.contact];
     if (!url) { el.hidden = true; return; }
     el.href = url;
+    if (el.dataset.contact === 'phone') return;
     el.target = '_blank';
     el.rel = 'noopener';
   });
