@@ -412,8 +412,10 @@ img.is-broken { visibility: hidden; }
   font-size: clamp(66px, 20vw, 176px);
   line-height: .86;
   letter-spacing: -.025em;
-  text-shadow: 0 0 28px rgba(255, 255, 255, .28);
+  text-shadow: 0 0 28px rgba(255, 255, 255, 0);
+  transition: text-shadow 1.2s var(--ease);
 }
+.hero-done .hero__title, .no-js .hero__title { text-shadow: 0 0 28px rgba(255, 255, 255, .3); }
 .hero__title .line { display: block; overflow: hidden; padding: 0 .1em .07em; margin-bottom: -.07em; }
 .hero-done .hero__title .line { overflow: visible; }
 .hero__title .line > span { position: relative; display: inline-block; }
